@@ -14,3 +14,8 @@ The ISIC (International Skin Imaging Collaboration) 2019 Skin Lesion Images for 
 - Dermatofibroma
 - Vascular lesion
 - Squamous cell carcinoma
+
+## Data Setup
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification)
+2. Place the unzipped contents in `data/raw/`
+3. Run `python scripts/prepare_data.py` to generate processed splits

@@ -1,0 +1,17 @@
+data/raw/
+data/processed/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.h5
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+.venv/
+.vscode/
+.DS_Store
+wandb/
+.env
