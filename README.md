@@ -1,5 +1,25 @@
 # Skin Lesion Classification
 
+## Setup
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/justingubbens/skin-lesion-classification.git
+cd skin-lesion-classification
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 3. Download the data
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification)
+2. Unzip and place contents in `data/raw/`
+3. Run `python scripts/prepare_data.py` to generate splits
+
 ## Dataset
 
 https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification
@@ -14,8 +34,3 @@ The ISIC (International Skin Imaging Collaboration) 2019 Skin Lesion Images for 
 - Dermatofibroma
 - Vascular lesion
 - Squamous cell carcinoma
-
-## Data Setup
-1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification)
-2. Place the unzipped contents in `data/raw/`
-3. Run `python scripts/prepare_data.py` to generate processed splits

@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+timm
+datasets
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+Pillow
+wandb
+gradio
+jupyter
+tqdm
