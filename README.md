@@ -11,7 +11,19 @@ cd skin-lesion-classification
 ### 2. Create virtual environment
 ```bash
 python -m venv venv
+```
+
+**Mac/Linux:**
+```bash
 source venv/bin/activate
+```
+
+**Windows:**
+```bash
+venv\Scripts\activate
+```
+
+```
 pip install -r requirements.txt
 ```
 
